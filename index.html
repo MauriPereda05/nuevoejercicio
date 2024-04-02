@@ -13,31 +13,36 @@
     <section>
         <article>
             <header><h2>Estructura base HTML</h2></header>
-            <p>La estructura base HTML son elementos basicos que se utilizan en una pagina web HTML los elementos que se usan son DOCTYPE,html,head,body,header.</p>
+            <p>La estructura base HTML son elementos basicos que se utilizan en una pagina web HTML por ejemplo, los elementos que se usan son DOCTYPE,html,head,body,header.</p>
         </article>
         <article>
             <header><h2>Comentarios</h2></header>
-            <p>Los comentarios en HTML son texto que no sera interpretado en el navegador,cualquier texto que este encapsulado en  ! ---- y ---- no seran interpretados en la pagina. </p>
+            <p>Los comentarios en HTML son texto que no sera interpretado en el navegador,cualquier texto que este encapsulado como por ejemplo < ! ---- y ---- > no seran interpretados en la pagina. </p>
         </article>
         <article>
             <header><h2>Tipo de etiquetas</h2></header>
             <p>Las etiquetas en HTML estan divididas en 4 partes</p>
             <footer><h3>Apertura y Cierre</h3></footer>
-            <p>Un pequeño ejemplo sobre la apertura y cierre en HTML de un párrafo de texto:En este ejemplo, se utiliza la etiqueta p> para iniciar el párrafo y se utiliza la etiqueta /p> para finalizarlo. esto hace una apertura y un cierre.</p>
+            <p>Un pequeño ejemplo sobre la apertura y cierre en HTML de un párrafo de texto:se utiliza la etiqueta < p> para iniciar el párrafo y termina con un cierre de etiqueta en < /p> esto hace una apertura y un cierre.</p>
             <footer><h3>Self closing</h3></footer>
-            <p>Es casi lo mismo como en apertura y cierre solo que en este no tiene cierre por ejemplo img src="" alt=""> no tiene una cierre y a esto se lo llama self closing.</p>
+            <p>Es casi lo mismo como en apertura y cierre solo que en este no tiene cierre por ejemplo < img src="" alt=""> no tiene una cierre y a esto se lo llama self closing.</p>
             <footer><h3>Bloque</h3></footer>
-            <p>la etiqueta de Bloque en HTML son los que ocupan un espacio horizontal en el sentido de que estos elementos de la pagina tienen una estructura interna que indica el navegador como se deben mostrar. </p>
-            <footer><h3>inline</h3></footer>
-            <p>En HTML los inline solo ocupan su contenido ya que no tienen una estructura de inicio y cierre que determina su tamaño o forma.</p>
+            <p>La etiqueta de Bloque en HTML son los que ocupan un espacio horizontal en el sentido de que estos elementos de la pagina tienen una estructura interna que indica el navegador como se deben mostrar como por ejemplo: </p>
+            <h2>Este es un ejemplo</h2>
+            <p>Los elementos de bloques ocupan todo el espacio horizontal como este < h1> aunque no lo necesita en la pagina web.</p>
+            <footer><h3>Inline</h3></footer>
+            <p>En HTML los inline solo ocupan su contenido ya que no tienen una estructura de inicio y cierre que determina su tamaño o forma como por ejemplo.</p>
+            <span>Hola</span>
+            <span>Mundo</span>
+            <p>Los inline usando < span> < /span> solo ocupan su contenido,excepto los encabezados " < h1>" los parrafos "< p>" y los div</p>
         </article>
         <article>
             <header><h2>Atributos</h2></header>
             <p>Los atributos en HTML pueden ser utilizados para asignar valores a los campos adicionales a los elementos,los atributos estan divididos en 2 partes</p>
             <footer><h3>Obligatorios</h3></footer>
-            <p>Los atributos obligatorios en HTML son aquellos atributos que son necesarios para la estructura y funcion de un elemento,por ejemplo,el atributo alt es obligatorio en el elemento img para especificar una descripcion alternativa de la imagen.</p>
+            <p>Los atributos obligatorios en HTML son aquellos atributos que son necesarios para la estructura y la funcion de un elemento,por ejemplo,el atributo alt es obligatorio en el elemento < img> para especificar una descripcion alternativa de la imagen.</p>
             <footer><h3>Opcionales</h3></footer>
-            <p>Los atributos opcionales en HTML son aquellos que se pueden o no especificar dependiendo de las necesidades especificas del usuario.</p>
+            <p>Los atributos opcionales en HTML son aquellos que se pueden o no especificar dependiendo de las necesidades especificas del usuario como por ejemplo: < h1 class="" > este es otro tipo de atributo y no es obligatorio ponerlo ya que class se usa para CSS</p>
         </article>
     </section>
 
@@ -48,15 +53,72 @@
     <section>
         <article>
             <header><h2>Encabezados</h2></header>
-            <p>Los encabezados se utilizan para determinar la importancia de un titulo en la pagina web.</p>
+            <p>Los encabezados se utilizan para determinar la importancia de un titulo en la pagina web como por ejemplo: </p>
+            <h1>Soy una titulo</h1>
+            <h2>Soy un titulo</h2>
+            <h3>Soy un titulo</h3>
+            <h4>Soy un titulo</h4>
+            <h5>Soy un titulo</h5>
+            <h6>Soy un titulo</h6>
+            <p>Hay diferentes niveles de encabezados es para organizar el contenido de manera jerarquica y semantica.</p>
         </article>
         <article>
             <header><h2>Parrafos</h2></header>
-            <p>Los parrafos en HTML es texto distribuido en parrafos.</p>
+            <p>Los parrafos en HTML es texto distribuido en parrafos como por ejemplo: los parrafos se definen utilizando < p></p>
         </article>
         <article>
             <header><h2>Enlaces</h2></header>
-            <p>Los enlaces se utilizan para que los usuarios puedan navegar a traves de la pagina web y otras paginas en el sitio o en otros sitios web.</p>
+            <p>Los enlaces se utilizan para que los usuarios puedan navegar a traves de la pagina web y otras paginas en el sitio o en otros sitios web como por ejemplo hay 2 formas principales en los enlaces:</p>
+            <header><h3>Enlaces a paginas webs externas</h3></header>
+            <p>Los enlaces a paginas webs externas son las que abre una nueva pestaña sin interrumpir la pestaña actual con la ayuda de target="_blank" como por ejemplo < a href="https://www.google.com/" target="_blank"> < /a> de lo contrario si un enlace no lleva target="_blank" el navegador cargará la pagina vinculada en la misma ventana o pestaña en la que se encuentra el usuario actualmente.</p>
+        </article>
+    </section>
+
+    <section>
+        <header><h1>HTML5 ETIQUETAS</h1></header>
+    </section>
+
+    <section>
+        <article>
+            <header><h2>Header</h2></header>
+            <p>El header es el contenido introductorio de su ancestro mas cercano,se utiliza para definir la cabecera de un documento o de una seccion dentro del mismo.Generalmente se encuentra al principio de una pagina y puede contener elementos como un titulo</p>
+        </article>
+        <article>
+            <header><h2>Nav</h2></header>
+            <p>La etiqueta nav sirve para crear menus de navegacion en HTML por ejemplo:</p>
+            <p>< nav><br>
+                < ul><br>
+                < a href="#">inicios< /a><br>
+                < /ul><br>
+               < /nav><br>
+            </p>
+            <p>En este codigo < nav> se esta utilizando para definir la seccion de navegacion del sitio web,lo que ayuda a los usuarios y a los motores de busqueda a entender la estructura y la jerarquia del contenido.</p>
+        </article>
+        <article>
+            <header><h2>Footer</h2></header>
+            <p>El footer es el pie de pagina de una seccion o contenido.El pie de pagina generalmente contiene informacion como por ejemplo,enlaces adicionales,derechos autor,creditos y otra informacion relevante para el sitio web</p>
+        </article>
+        <article>
+            <header><h2>Section</h2></header>
+            <p>El section es una seccion o division de contenido,en HTML es un elemento que se utiliza para agrupar y organizar contenido relacionado dentro de una pagina web por ejemplo si estuvieramos diseñando una pagina web para un blog de viaje podriamos usar < section> para organizar el contenido.</p>
+        </article>
+        <article>
+            <header><h2>Article</h2></header>
+            <p>El section es una seccion o division de contenido,en HTML es un elemento que se utiliza para agrupar y organizar contenido relacionado dentro de una pagina web por ejemplo si estuvieramos diseñando una pagina web para un blog de viaje podriamos usar < section> para organizar el contenido.</p>
+        </article>
+        <article>
+            <header><h2>Main</h2></header>
+            <p>Es el contenido principal de la pagina UNICO en HTML5 es considerado unico porque esta destinado a contener el contenido principal y unico de una pagina web como por ejemplo</p>
+            <p>< main><br>
+                < p>Bienvenido a mi página web. Aquí encontrarás información sobre diversos temas.</p><br>
+                < p>¡Espero que disfrutes tu visita!</p><br>
+              < /main><br>
+            </p>
+        <p>< main> contiene simplemente un parrafo de bienvenida que da una breve introduccion a la pagina web.Esta estructura ayuda a organizar y presentar el contenido de manera clara y semantica</p>
+        </article>
+        <article>
+            <header><h2>Aside</h2></header>
+            <p>Contenido no necesariamente relacionado,El uso mas comun de < aside> es para elementos como barras laterales,notas al margen o anuncios.</aside></p>
         </article>
     </section>
 </body>
