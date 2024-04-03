@@ -15,7 +15,7 @@
 
 [HTML ETIQUETAS]
 
-1. Encabezados:son los que represetan de la etiqueta <h1> hasta <h6> se utilizan para definir la estructura jerarquica y crear textos en una pagina web
+1. Encabezados:son los que represetan de la etiqueta < h1> hasta < h6> se utilizan para definir la estructura jerarquica y crear textos en una pagina web
 2. Parrafos:Esta etiqueta se utiliza para agrupar un texto como un parrafo en una pagina web.
 3. Enlaces:Los enlaces son elementos fundamentales para la navegacion web y permiten al usuario acceder por paginas webs tanto externas o internas.
 
